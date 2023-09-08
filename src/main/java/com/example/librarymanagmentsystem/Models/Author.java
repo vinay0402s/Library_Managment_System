@@ -1,5 +1,6 @@
 package com.example.librarymanagmentsystem.Models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
@@ -31,7 +32,7 @@ public class Author {
 
     private String penName;
 
-
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<Book> bookList = new ArrayList<>();
 }

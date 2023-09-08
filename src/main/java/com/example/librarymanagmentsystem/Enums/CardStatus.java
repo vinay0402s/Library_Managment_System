@@ -1,7 +1,7 @@
 package com.example.librarymanagmentsystem.Enums;
 
 public enum CardStatus {
-    ACITIVE,
+    ACTIVE,
     DEACTIVATED,
     ISSUED,
     NEW,
