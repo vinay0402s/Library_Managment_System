@@ -1,6 +1,6 @@
 package com.example.librarymanagmentsystem.Models;
 
-import com.example.librarymanagmentsystem.Enums.Genre;
+import com.example.librarymanagmentsystem.CustomException.Enums.Genre;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;

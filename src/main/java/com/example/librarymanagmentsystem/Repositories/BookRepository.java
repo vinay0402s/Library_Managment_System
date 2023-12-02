@@ -1,6 +1,6 @@
 package com.example.librarymanagmentsystem.Repositories;
 
-import com.example.librarymanagmentsystem.Enums.Genre;
+import com.example.librarymanagmentsystem.CustomException.Enums.Genre;
 import com.example.librarymanagmentsystem.Models.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,6 +1,6 @@
 package com.example.librarymanagmentsystem.ResponseDto;
 
-import com.example.librarymanagmentsystem.Enums.Genre;
+import com.example.librarymanagmentsystem.CustomException.Enums.Genre;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

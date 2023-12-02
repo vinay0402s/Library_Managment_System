@@ -1,17 +1,12 @@
 package com.example.librarymanagmentsystem.Models;
 
-import com.example.librarymanagmentsystem.Enums.CardStatus;
-import com.example.librarymanagmentsystem.Enums.Department;
-import com.example.librarymanagmentsystem.Enums.Gender;
+import com.example.librarymanagmentsystem.CustomException.Enums.Department;
+import com.example.librarymanagmentsystem.CustomException.Enums.Gender;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.query.sql.internal.ParameterRecognizerImpl;
-
-import javax.naming.CannotProceedException;
-import javax.naming.ldap.PagedResultsControl;
 
 @Entity
 @Table(name="student")

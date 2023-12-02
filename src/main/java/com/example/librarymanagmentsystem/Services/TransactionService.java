@@ -5,9 +5,9 @@ import com.example.librarymanagmentsystem.CustomException.BookNotAvailableExcept
 import com.example.librarymanagmentsystem.CustomException.BookNotFoundException;
 import com.example.librarymanagmentsystem.CustomException.LibraryCardISInvalidException;
 import com.example.librarymanagmentsystem.CustomException.LibraryCardStatusException;
-import com.example.librarymanagmentsystem.Enums.CardStatus;
-import com.example.librarymanagmentsystem.Enums.TransactionStatus;
-import com.example.librarymanagmentsystem.Enums.TransactionType;
+import com.example.librarymanagmentsystem.CustomException.Enums.CardStatus;
+import com.example.librarymanagmentsystem.CustomException.Enums.TransactionStatus;
+import com.example.librarymanagmentsystem.CustomException.Enums.TransactionType;
 import com.example.librarymanagmentsystem.Models.Book;
 import com.example.librarymanagmentsystem.Models.LibraryCard;
 import com.example.librarymanagmentsystem.Models.Transcation;

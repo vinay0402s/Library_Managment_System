@@ -1,9 +1,6 @@
 package com.example.librarymanagmentsystem.RequestDto;
 
-import com.example.librarymanagmentsystem.Enums.Genre;
-import jakarta.persistence.Column;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
+import com.example.librarymanagmentsystem.CustomException.Enums.Genre;
 import lombok.Getter;
 import lombok.Setter;
 

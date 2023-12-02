@@ -1,6 +1,6 @@
 package com.example.librarymanagmentsystem.Services;
 
-import com.example.librarymanagmentsystem.Enums.CardStatus;
+import com.example.librarymanagmentsystem.CustomException.Enums.CardStatus;
 import com.example.librarymanagmentsystem.Models.LibraryCard;
 import com.example.librarymanagmentsystem.Models.Student;
 import com.example.librarymanagmentsystem.Repositories.CardRepository;

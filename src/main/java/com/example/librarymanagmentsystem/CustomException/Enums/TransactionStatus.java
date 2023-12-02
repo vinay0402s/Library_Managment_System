@@ -1,4 +1,4 @@
-package com.example.librarymanagmentsystem.Enums;
+package com.example.librarymanagmentsystem.CustomException.Enums;
 
 public enum TransactionStatus {
     PENDING,

@@ -1,9 +1,8 @@
 package com.example.librarymanagmentsystem.Services;
 
-import com.example.librarymanagmentsystem.Enums.Genre;
+import com.example.librarymanagmentsystem.CustomException.Enums.Genre;
 import com.example.librarymanagmentsystem.Models.Author;
 import com.example.librarymanagmentsystem.Models.Book;
-import com.example.librarymanagmentsystem.Models.Student;
 import com.example.librarymanagmentsystem.Repositories.AuthorRepository;
 import com.example.librarymanagmentsystem.Repositories.BookRepository;
 import com.example.librarymanagmentsystem.RequestDto.AddBookRequestDto;
@@ -11,7 +10,6 @@ import com.example.librarymanagmentsystem.ResponseDto.BookResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.swing.event.ListDataEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

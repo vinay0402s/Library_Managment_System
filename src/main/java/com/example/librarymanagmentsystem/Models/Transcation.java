@@ -1,7 +1,7 @@
 package com.example.librarymanagmentsystem.Models;
 
-import com.example.librarymanagmentsystem.Enums.TransactionStatus;
-import com.example.librarymanagmentsystem.Enums.TransactionType;
+import com.example.librarymanagmentsystem.CustomException.Enums.TransactionStatus;
+import com.example.librarymanagmentsystem.CustomException.Enums.TransactionType;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Getter;

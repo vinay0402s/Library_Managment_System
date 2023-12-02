@@ -1,6 +1,6 @@
 package com.example.librarymanagmentsystem.Services;
 
-import com.example.librarymanagmentsystem.Enums.Department;
+import com.example.librarymanagmentsystem.CustomException.Enums.Department;
 import com.example.librarymanagmentsystem.Models.Student;
 import com.example.librarymanagmentsystem.Repositories.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
