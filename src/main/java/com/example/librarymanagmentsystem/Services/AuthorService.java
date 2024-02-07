@@ -17,11 +17,11 @@ public class AuthorService {
 
         //validation checks
         if(author.getAuthorId()!=null){
-            throw new Exception("Author Id should not sent as paramenter");
+            throw new Exception("Author Id should not sent as parameter");
         }
 
         authorRepository.save(author);
-        return "author has been added succesfully to the db";
+        return "author has been added successfully to the db";
     }
 
     public String UpdateNameAndPenName(UpdateNameAndPenNameRequest request)throws Exception{
